@@ -1,0 +1,49 @@
+{
+  "name": "Get Transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.x.x"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^14.2.0",
+    "eslint": "^8.7.0",
+    "express": "^4.17.2",
+    "express-useragent": "^1.0.15",
+    "firebase-admin": "^10.0.2",
+    "geofire": "^6.0.0",
+    "handlebars": "^4.7.7",
+    "helmet": "^5.1.0",
+    "ioredis": "^5.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.1.7",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.2",
+    "node-rsa": "^1.1.1",
+    "nodemailer": "^6.7.2",
+    "pm2": "^5.2.0",
+    "random-string-generator": "^1.0.1",
+    "ws": "^8.13.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
