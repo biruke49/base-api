@@ -40,6 +40,7 @@
     "nodemailer": "^6.7.2",
     "pm2": "^5.2.0",
     "random-string-generator": "^1.0.1",
+    "swagger-ui-express": "^5.0.0",
     "ws": "^8.13.0",
     "yup": "^0.32.11"
   },
